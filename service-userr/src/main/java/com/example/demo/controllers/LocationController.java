@@ -43,7 +43,7 @@ public class LocationController {
 	
 	//save location
 	@PostMapping("locations")
-	public Location createOffer(@RequestBody Location location )
+	public Location createLocation(@RequestBody Location location )
 	{
 		return this.locationRepository.save(location);
 	}

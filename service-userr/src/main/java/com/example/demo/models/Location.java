@@ -20,6 +20,10 @@ public class Location {
      /* @OneToMany(mappedBy="location")
       @Column(name="utilisateurs")
      private List<User> users;*/
+	public Location()
+	{
+		
+	}
 	public Location(Long id, String name) {
 		super();
 		this.id = id;

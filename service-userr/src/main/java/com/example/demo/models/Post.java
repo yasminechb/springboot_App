@@ -22,6 +22,10 @@ public class Post {
 	  private User user;
 	@Column(name="details")
 	  private String details;
+	public Post()
+	{
+		
+	}
 	public Post(Long id, Date postDate, User user, String details) {
 		super();
 		this.id = id;

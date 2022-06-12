@@ -26,6 +26,10 @@ public class User {
   private String email;
  /* @OneToMany (mappedBy="user")
   private List<Post> posts ;*/
+  public User()
+  {
+	  
+  }
 public User(Long id, String firstname, String lastname, Location location, String email) {
 	super();
 	this.id = id;
